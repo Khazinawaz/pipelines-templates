@@ -2,7 +2,7 @@ resources:
   - name: res_quaerat_0
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -11,7 +11,7 @@ resources:
   - name: res_non_1
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -20,7 +20,7 @@ resources:
   - name: res_iste_2
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -29,7 +29,7 @@ resources:
   - name: res_officia_3
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -38,7 +38,7 @@ resources:
   - name: res_cumque_4
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -47,7 +47,7 @@ resources:
   - name: res_qui_5
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -56,7 +56,7 @@ resources:
   - name: res_dignissimos_6
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -65,7 +65,7 @@ resources:
   - name: res_recusandae_7
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -74,7 +74,7 @@ resources:
   - name: res_sit_8
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -83,7 +83,7 @@ resources:
   - name: res_illo_9
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -92,7 +92,7 @@ resources:
   - name: res_quia_10
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -101,7 +101,7 @@ resources:
   - name: res_consectetur_11
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -110,7 +110,7 @@ resources:
   - name: res_accusantium_12
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -119,7 +119,7 @@ resources:
   - name: res_itaque_13
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -128,7 +128,7 @@ resources:
   - name: res_molestiae_14
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -137,7 +137,7 @@ resources:
   - name: res_et_15
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -146,7 +146,7 @@ resources:
   - name: res_praesentium_16
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -155,7 +155,7 @@ resources:
   - name: res_ipsam_17
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -164,7 +164,7 @@ resources:
   - name: res_suscipit_18
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -173,7 +173,7 @@ resources:
   - name: res_rerum_19
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -182,7 +182,7 @@ resources:
   - name: res_aut_20
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -191,7 +191,7 @@ resources:
   - name: res_minus_21
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -200,7 +200,7 @@ resources:
   - name: res_aut_22
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -209,7 +209,7 @@ resources:
   - name: res_voluptate_23
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -218,7 +218,7 @@ resources:
   - name: res_voluptate_24
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -227,7 +227,7 @@ resources:
   - name: res_voluptatem_25
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -236,7 +236,7 @@ resources:
   - name: res_inventore_26
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -245,7 +245,7 @@ resources:
   - name: res_cumque_27
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -254,7 +254,7 @@ resources:
   - name: res_impedit_28
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -263,7 +263,7 @@ resources:
   - name: res_culpa_29
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -272,7 +272,7 @@ resources:
   - name: res_commodi_30
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -281,7 +281,7 @@ resources:
   - name: res_nisi_31
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -290,7 +290,7 @@ resources:
   - name: res_explicabo_32
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -299,7 +299,7 @@ resources:
   - name: res_dolor_33
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -308,7 +308,7 @@ resources:
   - name: res_quod_34
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -317,7 +317,7 @@ resources:
   - name: res_animi_35
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -326,7 +326,7 @@ resources:
   - name: res_nulla_36
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -335,7 +335,7 @@ resources:
   - name: res_fuga_37
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -344,7 +344,7 @@ resources:
   - name: res_pariatur_38
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -353,7 +353,7 @@ resources:
   - name: res_sit_39
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -362,7 +362,7 @@ resources:
   - name: res_sed_40
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -371,7 +371,7 @@ resources:
   - name: res_iusto_41
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -380,7 +380,7 @@ resources:
   - name: res_expedita_42
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -389,7 +389,7 @@ resources:
   - name: res_veritatis_43
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -398,7 +398,7 @@ resources:
   - name: res_laboriosam_44
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -407,7 +407,7 @@ resources:
   - name: res_qui_45
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -416,7 +416,7 @@ resources:
   - name: res_pariatur_46
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -425,7 +425,7 @@ resources:
   - name: res_qui_47
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -434,7 +434,7 @@ resources:
   - name: res_et_48
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -443,7 +443,7 @@ resources:
   - name: res_praesentium_49
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -452,7 +452,7 @@ resources:
   - name: res_ab_50
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -461,7 +461,7 @@ resources:
   - name: res_dicta_51
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -470,7 +470,7 @@ resources:
   - name: res_accusamus_52
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -479,7 +479,7 @@ resources:
   - name: res_sint_53
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -488,7 +488,7 @@ resources:
   - name: res_repellat_54
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -497,7 +497,7 @@ resources:
   - name: res_laudantium_55
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -506,7 +506,7 @@ resources:
   - name: res_nihil_56
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -515,7 +515,7 @@ resources:
   - name: res_ad_57
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -524,7 +524,7 @@ resources:
   - name: res_esse_58
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -533,7 +533,7 @@ resources:
   - name: res_aliquid_59
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -542,7 +542,7 @@ resources:
   - name: res_consequuntur_60
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -551,7 +551,7 @@ resources:
   - name: res_reprehenderit_61
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -560,7 +560,7 @@ resources:
   - name: res_beatae_62
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -569,7 +569,7 @@ resources:
   - name: res_quia_63
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -578,7 +578,7 @@ resources:
   - name: res_quam_64
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -587,7 +587,7 @@ resources:
   - name: res_doloremque_65
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -596,7 +596,7 @@ resources:
   - name: res_ea_66
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -605,7 +605,7 @@ resources:
   - name: res_impedit_67
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -614,7 +614,7 @@ resources:
   - name: res_enim_68
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -623,7 +623,7 @@ resources:
   - name: res_quo_69
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -632,7 +632,7 @@ resources:
   - name: res_repellendus_70
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -641,7 +641,7 @@ resources:
   - name: res_voluptatem_71
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -650,7 +650,7 @@ resources:
   - name: res_vitae_72
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -659,7 +659,7 @@ resources:
   - name: res_dolorem_73
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -668,7 +668,7 @@ resources:
   - name: res_molestiae_74
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -677,7 +677,7 @@ resources:
   - name: res_magni_75
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -686,7 +686,7 @@ resources:
   - name: res_ut_76
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -695,7 +695,7 @@ resources:
   - name: res_ut_77
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -704,7 +704,7 @@ resources:
   - name: res_quas_78
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -713,7 +713,7 @@ resources:
   - name: res_et_79
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -722,7 +722,7 @@ resources:
   - name: res_qui_80
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -731,7 +731,7 @@ resources:
   - name: res_sint_81
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -740,7 +740,7 @@ resources:
   - name: res_dolorem_82
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -749,7 +749,7 @@ resources:
   - name: res_architecto_83
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -758,7 +758,7 @@ resources:
   - name: res_autem_84
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -767,7 +767,7 @@ resources:
   - name: res_fugiat_85
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -776,7 +776,7 @@ resources:
   - name: res_veritatis_86
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -785,7 +785,7 @@ resources:
   - name: res_fugit_87
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -794,7 +794,7 @@ resources:
   - name: res_laboriosam_88
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -803,7 +803,7 @@ resources:
   - name: res_ducimus_89
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -812,7 +812,7 @@ resources:
   - name: res_voluptatem_90
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -821,7 +821,7 @@ resources:
   - name: res_esse_91
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -830,7 +830,7 @@ resources:
   - name: res_harum_92
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -839,7 +839,7 @@ resources:
   - name: res_at_93
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -848,7 +848,7 @@ resources:
   - name: res_delectus_94
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -857,7 +857,7 @@ resources:
   - name: res_officia_95
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -866,7 +866,7 @@ resources:
   - name: res_eaque_96
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -875,7 +875,7 @@ resources:
   - name: res_magnam_97
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -884,7 +884,7 @@ resources:
   - name: res_illo_98
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
@@ -893,7 +893,7 @@ resources:
   - name: res_facere_99
     type: GitRepo
     configuration:
-      path: Khazinawaz/testing_gitRepo
+      path: Khazinawaz/pipelines-templates
       gitProvider: nawaz_gh
       branches:
         include: '^{{gitBranch}}$'
