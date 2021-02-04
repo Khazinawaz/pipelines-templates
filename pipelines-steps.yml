@@ -1,0 +1,956 @@
+pipelines:
+  - name: pipeline_velit_1
+    steps:
+      - name: step_recusandae_1
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 30ms
+        configuration:
+          inputResources:
+            - name: res_quia_3
+            - name: res_totam_51
+      - name: step_quidem_2
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 54ms
+        configuration:
+          inputSteps:
+            - name: step_recusandae_1
+          inputResources:
+            - name: res_beatae_48
+      - name: step_in_3
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 36ms
+            - printenv
+            - sleep 32ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 48ms
+        configuration:
+          inputResources:
+            - name: res_eaque_34
+      - name: step_exercitationem_4
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 37ms
+            - printenv
+            - sleep 50ms
+        configuration:
+          inputSteps:
+            - name: step_quidem_2
+          inputResources:
+            - name: res_et_92
+            - name: res_eaque_34
+      - name: step_quasi_5
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 53ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 32ms
+        configuration:
+          inputResources:
+            - name: res_totam_73
+            - name: res_assumenda_78
+      - name: step_pariatur_6
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 34ms
+            - printenv
+            - sleep 35ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 59ms
+        configuration:
+          inputSteps:
+            - name: step_in_3
+          inputResources:
+            - name: res_qui_35
+            - name: res_repellendus_70
+      - name: step_ut_7
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 37ms
+            - printenv
+            - sleep 32ms
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 47ms
+        configuration:
+          inputResources:
+            - name: res_sunt_8
+      - name: step_non_8
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 33ms
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 33ms
+        configuration:
+          inputResources:
+            - name: res_laudantium_18
+            - name: res_accusamus_63
+            - name: res_at_43
+      - name: step_et_9
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 58ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 50ms
+            - printenv
+            - sleep 58ms
+        configuration:
+          inputSteps:
+            - name: step_non_8
+            - name: step_recusandae_1
+          inputResources:
+            - name: res_ut_53
+      - name: step_cupiditate_10
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 36ms
+            - printenv
+            - sleep 43ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 43ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 44ms
+        configuration:
+          inputSteps:
+            - name: step_ut_7
+          inputResources:
+            - name: res_perspiciatis_62
+      - name: step_nihil_11
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 32ms
+            - printenv
+            - sleep 58ms
+        configuration:
+          inputSteps:
+            - name: step_cupiditate_10
+            - name: step_non_8
+          inputResources:
+            - name: res_sit_69
+            - name: res_ratione_87
+      - name: step_numquam_12
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 34ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 33ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 55ms
+        configuration:
+          inputResources:
+            - name: res_qui_4
+            - name: res_velit_56
+            - name: res_iure_30
+      - name: step_nisi_13
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 31ms
+        configuration:
+          inputResources:
+            - name: res_est_24
+            - name: res_autem_79
+      - name: step_nemo_14
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 32ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 43ms
+            - printenv
+            - sleep 53ms
+        configuration:
+          inputSteps:
+            - name: step_exercitationem_4
+            - name: step_quasi_5
+          inputResources:
+            - name: res_quia_65
+            - name: res_quidem_14
+      - name: step_et_15
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 36ms
+            - printenv
+            - sleep 47ms
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 31ms
+            - printenv
+            - sleep 47ms
+        configuration:
+          inputSteps:
+            - name: step_recusandae_1
+          inputResources:
+            - name: res_est_60
+            - name: res_optio_80
+            - name: res_at_43
+      - name: step_eveniet_16
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 36ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 34ms
+            - printenv
+            - sleep 39ms
+        configuration:
+          inputSteps:
+            - name: step_nihil_11
+          inputResources:
+            - name: res_laudantium_18
+            - name: res_repellat_6
+            - name: res_facere_99
+      - name: step_aut_17
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 45ms
+        configuration:
+          inputSteps:
+            - name: step_exercitationem_4
+          inputResources:
+            - name: res_veritatis_95
+      - name: step_quia_18
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 33ms
+            - printenv
+            - sleep 31ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 54ms
+        configuration:
+          inputSteps:
+            - name: step_nemo_14
+          inputResources:
+            - name: res_ratione_87
+            - name: res_laudantium_18
+      - name: step_magni_19
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 33ms
+            - printenv
+            - sleep 40ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 46ms
+        configuration:
+          inputSteps:
+            - name: step_nemo_14
+            - name: step_eveniet_16
+          inputResources:
+            - name: res_sit_25
+      - name: step_omnis_20
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 31ms
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 34ms
+        configuration:
+          inputSteps:
+            - name: step_quia_18
+          inputResources:
+            - name: res_earum_2
+            - name: res_deleniti_64
+      - name: step_et_21
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 51ms
+            - printenv
+            - sleep 43ms
+            - printenv
+            - sleep 34ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 59ms
+        configuration:
+          inputSteps:
+            - name: step_omnis_20
+          inputResources:
+            - name: res_qui_35
+      - name: step_voluptate_22
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 39ms
+        configuration:
+          inputSteps:
+            - name: step_et_21
+          inputResources:
+            - name: res_beatae_48
+            - name: res_ut_53
+            - name: res_nulla_89
+      - name: step_expedita_23
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 31ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 34ms
+        configuration:
+          inputSteps:
+            - name: step_voluptate_22
+          inputResources:
+            - name: res_dolores_46
+            - name: res_et_92
+      - name: step_id_24
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 40ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 37ms
+        configuration:
+          inputSteps:
+            - name: step_expedita_23
+          inputResources:
+            - name: res_ut_28
+      - name: step_voluptatibus_25
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 53ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 37ms
+            - printenv
+            - sleep 49ms
+        configuration:
+          inputResources:
+            - name: res_velit_20
+            - name: res_perspiciatis_62
+      - name: step_deleniti_26
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 46ms
+        configuration:
+          inputSteps:
+            - name: step_id_24
+          inputResources:
+            - name: res_repellendus_70
+            - name: res_ut_53
+      - name: step_magnam_27
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 47ms
+        configuration:
+          inputSteps:
+            - name: step_voluptate_22
+          inputResources:
+            - name: res_ratione_87
+      - name: step_autem_28
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 40ms
+            - printenv
+            - sleep 53ms
+        configuration:
+          inputResources:
+            - name: res_at_43
+            - name: res_ea_74
+      - name: step_dolores_29
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 47ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 32ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 43ms
+        configuration:
+          inputSteps:
+            - name: step_deleniti_26
+          inputResources:
+            - name: res_dicta_90
+      - name: step_architecto_30
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 56ms
+            - printenv
+            - sleep 56ms
+        configuration:
+          inputSteps:
+            - name: step_dolores_29
+          inputResources:
+            - name: res_earum_83
+            - name: res_minima_55
+      - name: step_molestiae_31
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 35ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 45ms
+            - printenv
+            - sleep 58ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 40ms
+        configuration:
+          inputResources:
+            - name: res_error_21
+            - name: res_ut_53
+            - name: res_aut_9
+      - name: step_officiis_32
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 49ms
+            - printenv
+            - sleep 59ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 50ms
+            - printenv
+            - sleep 37ms
+        configuration:
+          inputSteps:
+            - name: step_architecto_30
+          inputResources:
+            - name: res_eum_77
+            - name: res_tempora_11
+            - name: res_harum_39
+      - name: step_optio_33
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 59ms
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 57ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 58ms
+        configuration:
+          inputSteps:
+            - name: step_officiis_32
+          inputResources:
+            - name: res_sit_69
+            - name: res_quia_65
+      - name: step_hic_34
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 53ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 58ms
+            - printenv
+            - sleep 55ms
+        configuration:
+          inputSteps:
+            - name: step_optio_33
+          inputResources:
+            - name: res_quis_91
+      - name: step_repudiandae_35
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 31ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 35ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 34ms
+        configuration:
+          inputSteps:
+            - name: step_optio_33
+          inputResources:
+            - name: res_facilis_61
+      - name: step_iusto_36
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 50ms
+            - printenv
+            - sleep 46ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 40ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 30ms
+            - printenv
+            - sleep 53ms
+        configuration:
+          inputSteps:
+            - name: step_optio_33
+          inputResources:
+            - name: res_est_60
+      - name: step_enim_37
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 55ms
+            - printenv
+            - sleep 50ms
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 39ms
+            - printenv
+            - sleep 60ms
+        configuration:
+          inputResources:
+            - name: res_qui_26
+      - name: step_molestiae_38
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 58ms
+            - printenv
+            - sleep 48ms
+            - printenv
+            - sleep 44ms
+            - printenv
+            - sleep 50ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 32ms
+        configuration:
+          inputSteps:
+            - name: step_iusto_36
+          inputResources:
+            - name: res_assumenda_78
+            - name: res_est_24
+            - name: res_totam_51
+      - name: step_dicta_39
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 43ms
+            - printenv
+            - sleep 41ms
+            - printenv
+            - sleep 58ms
+            - printenv
+            - sleep 42ms
+        configuration:
+          inputSteps:
+            - name: step_molestiae_38
+          inputResources:
+            - name: res_quia_65
+      - name: step_aut_40
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step on ${stepvar_id}"'
+            - export date=$(date)
+            - printenv
+            - sleep 52ms
+            - printenv
+            - sleep 54ms
+            - printenv
+            - sleep 60ms
+            - printenv
+            - sleep 42ms
+            - printenv
+            - sleep 38ms
+            - printenv
+            - sleep 34ms
+        configuration:
+          inputSteps:
+            - name: step_molestiae_38
+          inputResources:
+            - name: res_voluptates_97

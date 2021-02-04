@@ -1,0 +1,901 @@
+resources:
+  - name: res_veritatis_0
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_veritatis_0\/.+\b
+  - name: res_impedit_1
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_impedit_1\/.+\b
+  - name: res_earum_2
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_earum_2\/.+\b
+  - name: res_quia_3
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quia_3\/.+\b
+  - name: res_qui_4
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_4\/.+\b
+  - name: res_sit_5
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sit_5\/.+\b
+  - name: res_repellat_6
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellat_6\/.+\b
+  - name: res_a_7
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_a_7\/.+\b
+  - name: res_sunt_8
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sunt_8\/.+\b
+  - name: res_aut_9
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aut_9\/.+\b
+  - name: res_commodi_10
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_commodi_10\/.+\b
+  - name: res_tempora_11
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_tempora_11\/.+\b
+  - name: res_illum_12
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_illum_12\/.+\b
+  - name: res_aut_13
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aut_13\/.+\b
+  - name: res_quidem_14
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quidem_14\/.+\b
+  - name: res_et_15
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_15\/.+\b
+  - name: res_quia_16
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quia_16\/.+\b
+  - name: res_voluptas_17
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptas_17\/.+\b
+  - name: res_laudantium_18
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_laudantium_18\/.+\b
+  - name: res_consequatur_19
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_consequatur_19\/.+\b
+  - name: res_velit_20
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_velit_20\/.+\b
+  - name: res_error_21
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_error_21\/.+\b
+  - name: res_beatae_22
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_beatae_22\/.+\b
+  - name: res_dolores_23
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolores_23\/.+\b
+  - name: res_est_24
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_est_24\/.+\b
+  - name: res_sit_25
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sit_25\/.+\b
+  - name: res_qui_26
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_26\/.+\b
+  - name: res_veritatis_27
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_veritatis_27\/.+\b
+  - name: res_ut_28
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_28\/.+\b
+  - name: res_repellendus_29
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellendus_29\/.+\b
+  - name: res_iure_30
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_iure_30\/.+\b
+  - name: res_aut_31
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aut_31\/.+\b
+  - name: res_consequatur_32
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_consequatur_32\/.+\b
+  - name: res_qui_33
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_33\/.+\b
+  - name: res_eaque_34
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eaque_34\/.+\b
+  - name: res_qui_35
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_35\/.+\b
+  - name: res_sed_36
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sed_36\/.+\b
+  - name: res_et_37
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_37\/.+\b
+  - name: res_corporis_38
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_corporis_38\/.+\b
+  - name: res_harum_39
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_harum_39\/.+\b
+  - name: res_minima_40
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_minima_40\/.+\b
+  - name: res_debitis_41
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_debitis_41\/.+\b
+  - name: res_dicta_42
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dicta_42\/.+\b
+  - name: res_at_43
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_at_43\/.+\b
+  - name: res_facere_44
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facere_44\/.+\b
+  - name: res_corporis_45
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_corporis_45\/.+\b
+  - name: res_dolores_46
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolores_46\/.+\b
+  - name: res_et_47
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_47\/.+\b
+  - name: res_beatae_48
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_beatae_48\/.+\b
+  - name: res_iusto_49
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_iusto_49\/.+\b
+  - name: res_aut_50
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aut_50\/.+\b
+  - name: res_totam_51
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_totam_51\/.+\b
+  - name: res_dolores_52
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolores_52\/.+\b
+  - name: res_ut_53
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_53\/.+\b
+  - name: res_expedita_54
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_expedita_54\/.+\b
+  - name: res_minima_55
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_minima_55\/.+\b
+  - name: res_velit_56
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_velit_56\/.+\b
+  - name: res_aliquid_57
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aliquid_57\/.+\b
+  - name: res_ea_58
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ea_58\/.+\b
+  - name: res_velit_59
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_velit_59\/.+\b
+  - name: res_est_60
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_est_60\/.+\b
+  - name: res_facilis_61
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facilis_61\/.+\b
+  - name: res_perspiciatis_62
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_perspiciatis_62\/.+\b
+  - name: res_accusamus_63
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_accusamus_63\/.+\b
+  - name: res_deleniti_64
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_deleniti_64\/.+\b
+  - name: res_quia_65
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quia_65\/.+\b
+  - name: res_deleniti_66
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_deleniti_66\/.+\b
+  - name: res_sapiente_67
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sapiente_67\/.+\b
+  - name: res_animi_68
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_animi_68\/.+\b
+  - name: res_sit_69
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sit_69\/.+\b
+  - name: res_repellendus_70
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellendus_70\/.+\b
+  - name: res_repellat_71
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellat_71\/.+\b
+  - name: res_velit_72
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_velit_72\/.+\b
+  - name: res_totam_73
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_totam_73\/.+\b
+  - name: res_ea_74
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ea_74\/.+\b
+  - name: res_ut_75
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_75\/.+\b
+  - name: res_ab_76
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ab_76\/.+\b
+  - name: res_eum_77
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eum_77\/.+\b
+  - name: res_assumenda_78
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_assumenda_78\/.+\b
+  - name: res_autem_79
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_autem_79\/.+\b
+  - name: res_optio_80
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_optio_80\/.+\b
+  - name: res_a_81
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_a_81\/.+\b
+  - name: res_quas_82
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quas_82\/.+\b
+  - name: res_earum_83
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_earum_83\/.+\b
+  - name: res_molestiae_84
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_molestiae_84\/.+\b
+  - name: res_debitis_85
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_debitis_85\/.+\b
+  - name: res_aspernatur_86
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aspernatur_86\/.+\b
+  - name: res_ratione_87
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ratione_87\/.+\b
+  - name: res_sequi_88
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sequi_88\/.+\b
+  - name: res_nulla_89
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_nulla_89\/.+\b
+  - name: res_dicta_90
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dicta_90\/.+\b
+  - name: res_quis_91
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quis_91\/.+\b
+  - name: res_et_92
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_92\/.+\b
+  - name: res_voluptatibus_93
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatibus_93\/.+\b
+  - name: res_aliquam_94
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aliquam_94\/.+\b
+  - name: res_veritatis_95
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_veritatis_95\/.+\b
+  - name: res_eaque_96
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eaque_96\/.+\b
+  - name: res_voluptates_97
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptates_97\/.+\b
+  - name: res_ut_98
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_98\/.+\b
+  - name: res_facere_99
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/pipelines-templates
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facere_99\/.+\b
