@@ -1,0 +1,901 @@
+resources:
+  - name: res_mollitia_0
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_illum_0\/.+\b
+  - name: res_deleniti_1
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_at_1\/.+\b
+  - name: res_dolor_2
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_nemo_2\/.+\b
+  - name: res_necessitatibus_3
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facere_3\/.+\b
+  - name: res_sapiente_4
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_libero_4\/.+\b
+  - name: res_suscipit_5
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellat_5\/.+\b
+  - name: res_rem_6
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quae_6\/.+\b
+  - name: res_cumque_7
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_tempore_7\/.+\b
+  - name: res_rerum_8
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_adipisci_8\/.+\b
+  - name: res_corrupti_9
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_est_9\/.+\b
+  - name: res_quae_10
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_harum_10\/.+\b
+  - name: res_exercitationem_11
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ea_11\/.+\b
+  - name: res_voluptatibus_12
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_12\/.+\b
+  - name: res_ut_13
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_13\/.+\b
+  - name: res_cum_14
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ratione_14\/.+\b
+  - name: res_animi_15
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_rerum_15\/.+\b
+  - name: res_consequatur_16
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellat_16\/.+\b
+  - name: res_recusandae_17
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_enim_17\/.+\b
+  - name: res_alias_18
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ullam_18\/.+\b
+  - name: res_iure_19
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolores_19\/.+\b
+  - name: res_laudantium_20
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatem_20\/.+\b
+  - name: res_fugiat_21
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_21\/.+\b
+  - name: res_asperiores_22
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_fugiat_22\/.+\b
+  - name: res_illo_23
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_placeat_23\/.+\b
+  - name: res_incidunt_24
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolorum_24\/.+\b
+  - name: res_dolorem_25
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_omnis_25\/.+\b
+  - name: res_id_26
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatibus_26\/.+\b
+  - name: res_et_27
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatem_27\/.+\b
+  - name: res_est_28
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quod_28\/.+\b
+  - name: res_ratione_29
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_cupiditate_29\/.+\b
+  - name: res_nemo_30
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ea_30\/.+\b
+  - name: res_eos_31
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facere_31\/.+\b
+  - name: res_repudiandae_32
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sed_32\/.+\b
+  - name: res_et_33
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatum_33\/.+\b
+  - name: res_eos_34
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_laudantium_34\/.+\b
+  - name: res_incidunt_35
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sunt_35\/.+\b
+  - name: res_soluta_36
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_36\/.+\b
+  - name: res_rerum_37
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ea_37\/.+\b
+  - name: res_ea_38
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_culpa_38\/.+\b
+  - name: res_est_39
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptas_39\/.+\b
+  - name: res_libero_40
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_natus_40\/.+\b
+  - name: res_voluptates_41
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolorem_41\/.+\b
+  - name: res_consequuntur_42
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_mollitia_42\/.+\b
+  - name: res_amet_43
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_vero_43\/.+\b
+  - name: res_rerum_44
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_autem_44\/.+\b
+  - name: res_qui_45
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_et_45\/.+\b
+  - name: res_libero_46
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_46\/.+\b
+  - name: res_consectetur_47
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_nemo_47\/.+\b
+  - name: res_sed_48
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_autem_48\/.+\b
+  - name: res_odit_49
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aspernatur_49\/.+\b
+  - name: res_officiis_50
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_50\/.+\b
+  - name: res_nostrum_51
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_veniam_51\/.+\b
+  - name: res_fugiat_52
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_adipisci_52\/.+\b
+  - name: res_dignissimos_53
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_nam_53\/.+\b
+  - name: res_aut_54
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_molestiae_54\/.+\b
+  - name: res_sit_55
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quasi_55\/.+\b
+  - name: res_voluptatem_56
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_amet_56\/.+\b
+  - name: res_saepe_57
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_facere_57\/.+\b
+  - name: res_maxime_58
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_repellendus_58\/.+\b
+  - name: res_nobis_59
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_59\/.+\b
+  - name: res_voluptates_60
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quasi_60\/.+\b
+  - name: res_exercitationem_61
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolor_61\/.+\b
+  - name: res_deserunt_62
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_molestiae_62\/.+\b
+  - name: res_autem_63
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_fugiat_63\/.+\b
+  - name: res_soluta_64
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ipsa_64\/.+\b
+  - name: res_illum_65
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quos_65\/.+\b
+  - name: res_ad_66
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_enim_66\/.+\b
+  - name: res_iure_67
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_aut_67\/.+\b
+  - name: res_repellendus_68
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_68\/.+\b
+  - name: res_ullam_69
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_doloribus_69\/.+\b
+  - name: res_cum_70
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptatem_70\/.+\b
+  - name: res_sit_71
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_qui_71\/.+\b
+  - name: res_voluptate_72
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_officia_72\/.+\b
+  - name: res_eius_73
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_vero_73\/.+\b
+  - name: res_occaecati_74
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eius_74\/.+\b
+  - name: res_sunt_75
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eos_75\/.+\b
+  - name: res_sit_76
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sed_76\/.+\b
+  - name: res_excepturi_77
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_impedit_77\/.+\b
+  - name: res_omnis_78
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_unde_78\/.+\b
+  - name: res_earum_79
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_officia_79\/.+\b
+  - name: res_officia_80
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_reprehenderit_80\/.+\b
+  - name: res_ipsa_81
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_amet_81\/.+\b
+  - name: res_veniam_82
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_corporis_82\/.+\b
+  - name: res_tempore_83
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolorum_83\/.+\b
+  - name: res_id_84
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptas_84\/.+\b
+  - name: res_ut_85
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ratione_85\/.+\b
+  - name: res_rerum_86
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_omnis_86\/.+\b
+  - name: res_qui_87
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_optio_87\/.+\b
+  - name: res_harum_88
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_modi_88\/.+\b
+  - name: res_libero_89
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_dolor_89\/.+\b
+  - name: res_rerum_90
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_fuga_90\/.+\b
+  - name: res_rem_91
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ratione_91\/.+\b
+  - name: res_est_92
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_voluptas_92\/.+\b
+  - name: res_voluptates_93
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_eligendi_93\/.+\b
+  - name: res_dolore_94
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_quia_94\/.+\b
+  - name: res_quibusdam_95
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_veniam_95\/.+\b
+  - name: res_et_96
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_reprehenderit_96\/.+\b
+  - name: res_ipsa_97
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ut_97\/.+\b
+  - name: res_nostrum_98
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_sed_98\/.+\b
+  - name: res_doloribus_99
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_ratione_99\/.+\b
