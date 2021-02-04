@@ -654,7 +654,9 @@ pipelines:
             - sleep 33ms
             - printenv
             - sleep 38ms
-        configuration: {}
+        configuration: 
+          inputResources:
+            - name: res_alias_18
       - name: step_beatae_28
         type: Bash
         execution:
