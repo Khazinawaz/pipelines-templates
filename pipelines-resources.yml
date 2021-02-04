@@ -1,5 +1,5 @@
 resources:
-  - name: res_repellat_0
+  - name: res_quaerat_0
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -7,8 +7,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_repellat_0\/.+\b
-  - name: res_repellat_1
+        include: \bres_quaerat_0\/.+\b
+  - name: res_non_1
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -16,8 +16,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_repellat_1\/.+\b
-  - name: res_nulla_2
+        include: \bres_non_1\/.+\b
+  - name: res_iste_2
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -25,8 +25,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_nulla_2\/.+\b
-  - name: res_est_3
+        include: \bres_iste_2\/.+\b
+  - name: res_officia_3
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -34,8 +34,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_est_3\/.+\b
-  - name: res_iure_4
+        include: \bres_officia_3\/.+\b
+  - name: res_cumque_4
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -43,8 +43,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_iure_4\/.+\b
-  - name: res_nemo_5
+        include: \bres_cumque_4\/.+\b
+  - name: res_qui_5
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -52,8 +52,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_nemo_5\/.+\b
-  - name: res_magni_6
+        include: \bres_qui_5\/.+\b
+  - name: res_dignissimos_6
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -61,8 +61,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_magni_6\/.+\b
-  - name: res_excepturi_7
+        include: \bres_dignissimos_6\/.+\b
+  - name: res_recusandae_7
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -70,8 +70,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_excepturi_7\/.+\b
-  - name: res_debitis_8
+        include: \bres_recusandae_7\/.+\b
+  - name: res_sit_8
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -79,8 +79,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_debitis_8\/.+\b
-  - name: res_necessitatibus_9
+        include: \bres_sit_8\/.+\b
+  - name: res_illo_9
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -88,8 +88,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_necessitatibus_9\/.+\b
-  - name: res_aliquam_10
+        include: \bres_illo_9\/.+\b
+  - name: res_quia_10
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -97,8 +97,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aliquam_10\/.+\b
-  - name: res_consequatur_11
+        include: \bres_quia_10\/.+\b
+  - name: res_consectetur_11
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -106,8 +106,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_consequatur_11\/.+\b
-  - name: res_veritatis_12
+        include: \bres_consectetur_11\/.+\b
+  - name: res_accusantium_12
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -115,8 +115,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_veritatis_12\/.+\b
-  - name: res_reprehenderit_13
+        include: \bres_accusantium_12\/.+\b
+  - name: res_itaque_13
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -124,8 +124,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_reprehenderit_13\/.+\b
-  - name: res_et_14
+        include: \bres_itaque_13\/.+\b
+  - name: res_molestiae_14
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -133,8 +133,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_14\/.+\b
-  - name: res_ad_15
+        include: \bres_molestiae_14\/.+\b
+  - name: res_et_15
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -142,8 +142,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ad_15\/.+\b
-  - name: res_in_16
+        include: \bres_et_15\/.+\b
+  - name: res_praesentium_16
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -151,8 +151,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_in_16\/.+\b
-  - name: res_ut_17
+        include: \bres_praesentium_16\/.+\b
+  - name: res_ipsam_17
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -160,8 +160,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ut_17\/.+\b
-  - name: res_quo_18
+        include: \bres_ipsam_17\/.+\b
+  - name: res_suscipit_18
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -169,8 +169,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_quo_18\/.+\b
-  - name: res_temporibus_19
+        include: \bres_suscipit_18\/.+\b
+  - name: res_rerum_19
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -178,8 +178,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_temporibus_19\/.+\b
-  - name: res_nulla_20
+        include: \bres_rerum_19\/.+\b
+  - name: res_aut_20
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -187,8 +187,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_nulla_20\/.+\b
-  - name: res_natus_21
+        include: \bres_aut_20\/.+\b
+  - name: res_minus_21
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -196,8 +196,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_natus_21\/.+\b
-  - name: res_repudiandae_22
+        include: \bres_minus_21\/.+\b
+  - name: res_aut_22
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -205,8 +205,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_repudiandae_22\/.+\b
-  - name: res_id_23
+        include: \bres_aut_22\/.+\b
+  - name: res_voluptate_23
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -214,8 +214,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_id_23\/.+\b
-  - name: res_cumque_24
+        include: \bres_voluptate_23\/.+\b
+  - name: res_voluptate_24
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -223,8 +223,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_cumque_24\/.+\b
-  - name: res_at_25
+        include: \bres_voluptate_24\/.+\b
+  - name: res_voluptatem_25
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -232,8 +232,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_at_25\/.+\b
-  - name: res_qui_26
+        include: \bres_voluptatem_25\/.+\b
+  - name: res_inventore_26
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -241,8 +241,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_qui_26\/.+\b
-  - name: res_ea_27
+        include: \bres_inventore_26\/.+\b
+  - name: res_cumque_27
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -250,8 +250,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ea_27\/.+\b
-  - name: res_in_28
+        include: \bres_cumque_27\/.+\b
+  - name: res_impedit_28
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -259,8 +259,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_in_28\/.+\b
-  - name: res_itaque_29
+        include: \bres_impedit_28\/.+\b
+  - name: res_culpa_29
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -268,8 +268,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_itaque_29\/.+\b
-  - name: res_sed_30
+        include: \bres_culpa_29\/.+\b
+  - name: res_commodi_30
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -277,8 +277,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_sed_30\/.+\b
-  - name: res_totam_31
+        include: \bres_commodi_30\/.+\b
+  - name: res_nisi_31
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -286,8 +286,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_totam_31\/.+\b
-  - name: res_sunt_32
+        include: \bres_nisi_31\/.+\b
+  - name: res_explicabo_32
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -295,8 +295,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_sunt_32\/.+\b
-  - name: res_vitae_33
+        include: \bres_explicabo_32\/.+\b
+  - name: res_dolor_33
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -304,8 +304,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_vitae_33\/.+\b
-  - name: res_rerum_34
+        include: \bres_dolor_33\/.+\b
+  - name: res_quod_34
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -313,8 +313,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_rerum_34\/.+\b
-  - name: res_enim_35
+        include: \bres_quod_34\/.+\b
+  - name: res_animi_35
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -322,8 +322,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_enim_35\/.+\b
-  - name: res_eaque_36
+        include: \bres_animi_35\/.+\b
+  - name: res_nulla_36
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -331,8 +331,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_eaque_36\/.+\b
-  - name: res_odio_37
+        include: \bres_nulla_36\/.+\b
+  - name: res_fuga_37
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -340,8 +340,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_odio_37\/.+\b
-  - name: res_minima_38
+        include: \bres_fuga_37\/.+\b
+  - name: res_pariatur_38
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -349,8 +349,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_minima_38\/.+\b
-  - name: res_quia_39
+        include: \bres_pariatur_38\/.+\b
+  - name: res_sit_39
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -358,8 +358,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_quia_39\/.+\b
-  - name: res_dolor_40
+        include: \bres_sit_39\/.+\b
+  - name: res_sed_40
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -367,8 +367,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_dolor_40\/.+\b
-  - name: res_ipsum_41
+        include: \bres_sed_40\/.+\b
+  - name: res_iusto_41
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -376,8 +376,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ipsum_41\/.+\b
-  - name: res_voluptatem_42
+        include: \bres_iusto_41\/.+\b
+  - name: res_expedita_42
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -385,8 +385,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_voluptatem_42\/.+\b
-  - name: res_inventore_43
+        include: \bres_expedita_42\/.+\b
+  - name: res_veritatis_43
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -394,8 +394,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_inventore_43\/.+\b
-  - name: res_ut_44
+        include: \bres_veritatis_43\/.+\b
+  - name: res_laboriosam_44
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -403,8 +403,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ut_44\/.+\b
-  - name: res_dicta_45
+        include: \bres_laboriosam_44\/.+\b
+  - name: res_qui_45
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -412,8 +412,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_dicta_45\/.+\b
-  - name: res_occaecati_46
+        include: \bres_qui_45\/.+\b
+  - name: res_pariatur_46
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -421,8 +421,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_occaecati_46\/.+\b
-  - name: res_et_47
+        include: \bres_pariatur_46\/.+\b
+  - name: res_qui_47
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -430,8 +430,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_47\/.+\b
-  - name: res_libero_48
+        include: \bres_qui_47\/.+\b
+  - name: res_et_48
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -439,8 +439,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_libero_48\/.+\b
-  - name: res_in_49
+        include: \bres_et_48\/.+\b
+  - name: res_praesentium_49
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -448,8 +448,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_in_49\/.+\b
-  - name: res_vel_50
+        include: \bres_praesentium_49\/.+\b
+  - name: res_ab_50
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -457,8 +457,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_vel_50\/.+\b
-  - name: res_consequuntur_51
+        include: \bres_ab_50\/.+\b
+  - name: res_dicta_51
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -466,8 +466,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_consequuntur_51\/.+\b
-  - name: res_reprehenderit_52
+        include: \bres_dicta_51\/.+\b
+  - name: res_accusamus_52
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -475,8 +475,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_reprehenderit_52\/.+\b
-  - name: res_ea_53
+        include: \bres_accusamus_52\/.+\b
+  - name: res_sint_53
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -484,8 +484,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ea_53\/.+\b
-  - name: res_magni_54
+        include: \bres_sint_53\/.+\b
+  - name: res_repellat_54
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -493,8 +493,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_magni_54\/.+\b
-  - name: res_est_55
+        include: \bres_repellat_54\/.+\b
+  - name: res_laudantium_55
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -502,8 +502,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_est_55\/.+\b
-  - name: res_aliquid_56
+        include: \bres_laudantium_55\/.+\b
+  - name: res_nihil_56
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -511,8 +511,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aliquid_56\/.+\b
-  - name: res_explicabo_57
+        include: \bres_nihil_56\/.+\b
+  - name: res_ad_57
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -520,8 +520,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_explicabo_57\/.+\b
-  - name: res_et_58
+        include: \bres_ad_57\/.+\b
+  - name: res_esse_58
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -529,8 +529,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_58\/.+\b
-  - name: res_ut_59
+        include: \bres_esse_58\/.+\b
+  - name: res_aliquid_59
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -538,8 +538,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ut_59\/.+\b
-  - name: res_expedita_60
+        include: \bres_aliquid_59\/.+\b
+  - name: res_consequuntur_60
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -547,8 +547,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_expedita_60\/.+\b
-  - name: res_cumque_61
+        include: \bres_consequuntur_60\/.+\b
+  - name: res_reprehenderit_61
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -556,8 +556,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_cumque_61\/.+\b
-  - name: res_dolor_62
+        include: \bres_reprehenderit_61\/.+\b
+  - name: res_beatae_62
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -565,8 +565,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_dolor_62\/.+\b
-  - name: res_eaque_63
+        include: \bres_beatae_62\/.+\b
+  - name: res_quia_63
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -574,8 +574,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_eaque_63\/.+\b
-  - name: res_reprehenderit_64
+        include: \bres_quia_63\/.+\b
+  - name: res_quam_64
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -583,8 +583,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_reprehenderit_64\/.+\b
-  - name: res_omnis_65
+        include: \bres_quam_64\/.+\b
+  - name: res_doloremque_65
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -592,8 +592,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_omnis_65\/.+\b
-  - name: res_consequatur_66
+        include: \bres_doloremque_65\/.+\b
+  - name: res_ea_66
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -601,8 +601,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_consequatur_66\/.+\b
-  - name: res_et_67
+        include: \bres_ea_66\/.+\b
+  - name: res_impedit_67
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -610,8 +610,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_67\/.+\b
-  - name: res_odit_68
+        include: \bres_impedit_67\/.+\b
+  - name: res_enim_68
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -619,8 +619,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_odit_68\/.+\b
-  - name: res_voluptatem_69
+        include: \bres_enim_68\/.+\b
+  - name: res_quo_69
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -628,8 +628,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_voluptatem_69\/.+\b
-  - name: res_eligendi_70
+        include: \bres_quo_69\/.+\b
+  - name: res_repellendus_70
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -637,8 +637,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_eligendi_70\/.+\b
-  - name: res_et_71
+        include: \bres_repellendus_70\/.+\b
+  - name: res_voluptatem_71
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -646,8 +646,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_71\/.+\b
-  - name: res_esse_72
+        include: \bres_voluptatem_71\/.+\b
+  - name: res_vitae_72
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -655,8 +655,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_esse_72\/.+\b
-  - name: res_nobis_73
+        include: \bres_vitae_72\/.+\b
+  - name: res_dolorem_73
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -664,8 +664,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_nobis_73\/.+\b
-  - name: res_qui_74
+        include: \bres_dolorem_73\/.+\b
+  - name: res_molestiae_74
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -673,8 +673,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_qui_74\/.+\b
-  - name: res_quasi_75
+        include: \bres_molestiae_74\/.+\b
+  - name: res_magni_75
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -682,8 +682,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_quasi_75\/.+\b
-  - name: res_aut_76
+        include: \bres_magni_75\/.+\b
+  - name: res_ut_76
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -691,8 +691,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aut_76\/.+\b
-  - name: res_magnam_77
+        include: \bres_ut_76\/.+\b
+  - name: res_ut_77
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -700,8 +700,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_magnam_77\/.+\b
-  - name: res_adipisci_78
+        include: \bres_ut_77\/.+\b
+  - name: res_quas_78
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -709,8 +709,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_adipisci_78\/.+\b
-  - name: res_voluptatem_79
+        include: \bres_quas_78\/.+\b
+  - name: res_et_79
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -718,8 +718,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_voluptatem_79\/.+\b
-  - name: res_numquam_80
+        include: \bres_et_79\/.+\b
+  - name: res_qui_80
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -727,8 +727,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_numquam_80\/.+\b
-  - name: res_magnam_81
+        include: \bres_qui_80\/.+\b
+  - name: res_sint_81
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -736,8 +736,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_magnam_81\/.+\b
-  - name: res_incidunt_82
+        include: \bres_sint_81\/.+\b
+  - name: res_dolorem_82
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -745,8 +745,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_incidunt_82\/.+\b
-  - name: res_laborum_83
+        include: \bres_dolorem_82\/.+\b
+  - name: res_architecto_83
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -754,8 +754,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_laborum_83\/.+\b
-  - name: res_dolores_84
+        include: \bres_architecto_83\/.+\b
+  - name: res_autem_84
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -763,8 +763,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_dolores_84\/.+\b
-  - name: res_iure_85
+        include: \bres_autem_84\/.+\b
+  - name: res_fugiat_85
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -772,8 +772,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_iure_85\/.+\b
-  - name: res_repellendus_86
+        include: \bres_fugiat_85\/.+\b
+  - name: res_veritatis_86
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -781,8 +781,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_repellendus_86\/.+\b
-  - name: res_vitae_87
+        include: \bres_veritatis_86\/.+\b
+  - name: res_fugit_87
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -790,8 +790,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_vitae_87\/.+\b
-  - name: res_reprehenderit_88
+        include: \bres_fugit_87\/.+\b
+  - name: res_laboriosam_88
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -799,8 +799,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_reprehenderit_88\/.+\b
-  - name: res_qui_89
+        include: \bres_laboriosam_88\/.+\b
+  - name: res_ducimus_89
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -808,8 +808,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_qui_89\/.+\b
-  - name: res_excepturi_90
+        include: \bres_ducimus_89\/.+\b
+  - name: res_voluptatem_90
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -817,8 +817,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_excepturi_90\/.+\b
-  - name: res_qui_91
+        include: \bres_voluptatem_90\/.+\b
+  - name: res_esse_91
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -826,8 +826,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_qui_91\/.+\b
-  - name: res_asperiores_92
+        include: \bres_esse_91\/.+\b
+  - name: res_harum_92
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -835,8 +835,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_asperiores_92\/.+\b
-  - name: res_aut_93
+        include: \bres_harum_92\/.+\b
+  - name: res_at_93
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -844,8 +844,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aut_93\/.+\b
-  - name: res_rerum_94
+        include: \bres_at_93\/.+\b
+  - name: res_delectus_94
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -853,8 +853,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_rerum_94\/.+\b
-  - name: res_vel_95
+        include: \bres_delectus_94\/.+\b
+  - name: res_officia_95
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -862,8 +862,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_vel_95\/.+\b
-  - name: res_ab_96
+        include: \bres_officia_95\/.+\b
+  - name: res_eaque_96
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -871,8 +871,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_ab_96\/.+\b
-  - name: res_sapiente_97
+        include: \bres_eaque_96\/.+\b
+  - name: res_magnam_97
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -880,8 +880,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_sapiente_97\/.+\b
-  - name: res_aut_98
+        include: \bres_magnam_97\/.+\b
+  - name: res_illo_98
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -889,8 +889,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aut_98\/.+\b
-  - name: res_iste_99
+        include: \bres_illo_98\/.+\b
+  - name: res_facere_99
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -898,4 +898,4 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_iste_99\/.+\b
+        include: \bres_facere_99\/.+\b
